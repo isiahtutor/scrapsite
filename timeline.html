@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Timeline</title>
+
+        <link rel="stylesheet" href="timeline.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="top-section">
+                <h1>Love Timeline</h1>
+                <p class="timeline-description">As visitors scroll down the timeline, they'll be taken on
+                    a journey through Isiah and Ishi's relationship, seeing all
+                    the special moments they shared. Whether it's a romantic
+                    getaway, a special anniversary, or a simple moment of joy,
+                    each entry on the timeline will serve as a reminder of the 
+                    love and happiness that they shared.
+                    <span class="read-more-content read-more--hide">
+                        <br><br>
+
+                    This timeline is created to visually organize and display 
+                        information about the happiest moments of Isiah and his 
+                        girlfriend Ishi in chronological order. This will be a 
+                        reflection of their memories together and will give them 
+                        both a glimpse into their relationship.
+                    </span>
+                </p>
+                <div class="button-container">
+                    <button type="button" class="read-more-button"><span class="see-more-span"></span>See More</button>
+                </div>
+            </div>
+            
+            <script>
+                const readMoreButton = document.querySelector('.read-more-button');
+                const readMoreContent = document.querySelector('.read-more-content');
+
+                readMoreButton.addEventListener('click', () => {
+                    readMoreContent.classList.toggle('read-more--hide');
+
+                    
+                    if (readMoreButton.textContent === 'See More') {
+                        readMoreButton.textContent = 'See Less';
+                    } else {
+                        readMoreButton.textContent = 'See More';
+                    }
+                });
+                
+            </script>
+            
+            <style>
+                .read-more--hide {
+                    display: none;
+                    transition: height 1s ease-out;
+                }
+
+                .read-more-content {
+                    transition: height 1s ease-in;
+                } 
+            </style> 
+
+            <div class="timeline">
+                <div class="line"></div>
+
+                    <!--FIRST TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#">Our First Meet Up Again (HIKING) </a></h2>
+                            <p class="date">March 16 to 17, 2022</p>
+                            <p>The day we saw each
+                            other for the first time again. Never knew there 
+                            was still a pump of heart beating for each other 
+                            and never knew it was still you all along.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--SECOND TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> First Date (SM Sucat)</a></h2>
+                            <p class="date">May 4, 2022</p>
+                            <p>This day was the first date we had after our 
+                                break-up. One of the most memorable dates we
+                                ever had. Reason? Because Mama May was already
+                                having an idea that we are seeing each other
+                                again secretly.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--THIRD TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#">Back At School <br> (Asia Pacific College) </a> </h2>
+                            <p class="date">May 13, 2022</p>
+                            <p>Although there was nothing much that happened
+                                in this day, being with you makes it special.
+                                After getting your requirements in school, we
+                                had fun playing at arcade before going home.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--FOURTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> Before Home <br> (SM Bicutan) </a></h2>
+                            <p class="date">May 30, 2022</p>
+                            <p>I was from school and we met each other in SM
+                                Bicutan before going home. Another day well
+                                spent with you.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--FIFTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> Anniversary <br> (Mall Of Asia Arena) </a></h2>
+                            <p class="date">June 7, 2022</p>
+                            <p>From the title itself, it is already given that
+                                this day was the most precious day of our life.
+                                It was the day we agreed being officially together 
+                                to start a new chapter of our life.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--SIXTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> Another Date <br> (SM Bicutan) </a> </h2>
+                            <p class="date">June 25, 2022</p>
+                            <p>We had fun going around the mall doing window
+                                shopping, eating, and our favorite thing to do:
+                                Arcade.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--SEVENTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> Coffee Date (Tinatangi Cafe) </a> </h2>
+                            <p class="date">September 4, 2022</p>
+                            <p>It wasn't really a date becaues it was with Eubelle.
+                                However, I can say it was because we enjoyed
+                                ourselves being together, talking about random
+                                things and exploring the beautiful place.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--EIGTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> Boho Surf Hostel <br> (La Union) </a> </h2>
+                            <p class="date">September 16 to 18, 2022</p>
+                            <p>A lot happened with this trip. Although, this was
+                                a highschool friend reunion trip, we had fun together
+                                with all the activities we did.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--NINTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> I Miss You <br> (Philippines) </a> </h2>
+                            <p class="date">October 6, 2022</p>
+                            <p>Unfortunately, we need to be separated again. However,
+                                we know that we will always be together by heart and soul.
+                                It may be thousands of kilometers apart, we know that this 
+                                new journey will never be a hindrance to our hearts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--TENTH TIMELINE-->
+                    <div class="section">
+                        <div class="bead"></div>
+                        <div class="content">
+                            <h2> <a class="minititle" href="#"> My Valentine <br> (Australia) </a> </h2>
+                            <p class="date">Febuary 14, 2023</p>
+                            <p>This is the first time we celebrated your birthday and 
+                                valentines apart. Unfortunately, things did not go as planned
+                                for me. However, I still made my best to give you an online gift
+                                that will be cherished forever.
+                            </p>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+        <!--BUTTON-->
+        <div class="button-container">
+            <a href="homepage.html">
+            <button class="homebutton" type="button"><span></span>HOME</button>
+            </a>
+        </div>
+
+    <script src="timeline.js"></script>
+
+    </body>
+</html>
